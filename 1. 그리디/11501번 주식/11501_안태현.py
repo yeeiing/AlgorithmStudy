@@ -11,9 +11,10 @@ for i in range(test):
   sum = 0
   temp = 0
 
-  for idx, value in enumerate(reversed(stock)):
-    if value > temp:
+  # 순서를 뒤집어서 마지막날부터 순차적으로 봄
+  for value in reversed(stock): 
+    if value > temp:  # 앞날 주식 값이 더 크다면 temp를 업데이트
       temp = value
     else:
-      sum += temp - value
+      sum += temp - value # 앞날 주식 값이 더 작다면 현재와 앞날의 차가 이익
   print(sum)
