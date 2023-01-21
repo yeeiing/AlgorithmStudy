@@ -25,12 +25,12 @@ for index, s in enumerate(sList):
 result = 0
 for i in range(n):
   if sList[i + 1] == 1:
-    # 앞에 팀
+    # 앞에 팀 남는거 있나요
     if i != 0 and rList[i] == 1:
         rList[i] = 0
         sList[i + 1] = 0
  
-    #뒤에 팀
+    #뒤에 팀 남는거 있나요
     elif i + 2 != n + 1 and rList[i + 2] == 1:
       rList[i + 2] = 0
       sList[i + 1] = 0
