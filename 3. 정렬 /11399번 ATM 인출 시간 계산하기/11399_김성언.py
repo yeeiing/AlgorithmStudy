@@ -9,7 +9,7 @@ arr = []
 # for i in range(n):
 #     arr.append([int(input()),i])   
 # 근데 이러면 띄어쓰기로 넣지 못하고 그냥 넣어버리네?
-
+arr.sort()
 arr = list(map(int, input().split()))
 for i in range(1,n):
     arr[i] = arr[i] + arr[i-1]
