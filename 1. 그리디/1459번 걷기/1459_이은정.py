@@ -15,4 +15,4 @@ else:
 # 대각선 + 평행이동
 res3 = (min(x,y)*s) + (abs(x-y)*w)
 
-print(min(res1, res2, res3))
+print(min(res1, res2, res3)) # 최솟값 찾기
