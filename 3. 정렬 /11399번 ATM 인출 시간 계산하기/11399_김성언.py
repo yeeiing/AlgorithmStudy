@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-arr = []
+# arr = []
 
 # arr = list(map(int, input().split()))
 # 아 index를 저장해야지.,
@@ -11,6 +11,7 @@ arr = []
 # 근데 이러면 띄어쓰기로 넣지 못하고 그냥 넣어버리네?
 
 arr = list(map(int, input().split()))
+arr.sort()
 for i in range(1,n):
     arr[i] = arr[i] + arr[i-1]
 print(sum(arr))
