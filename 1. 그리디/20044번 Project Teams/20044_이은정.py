@@ -1,5 +1,5 @@
 # Project Teams
-# 1 2 3 4 5 6 이면 양끝끼리 더해서 구한다
+# 1 2 3 4 5 6 이면 양끝끼리 더해서 구한다!!
 
 import sys
 input = sys.stdin.readline
