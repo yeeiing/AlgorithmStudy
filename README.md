@@ -14,7 +14,9 @@
 
 ## 💫 참여방법 ##
 해당 repository Fork 후에 참여
+
 Pull Request 보내기
+
 merge하면서 @주차 @@@ 완료 작성
 
 ### 📂 파일 관리 ###
