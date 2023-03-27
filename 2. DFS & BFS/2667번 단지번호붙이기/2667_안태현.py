@@ -18,7 +18,7 @@ result = []
 def DFS(x, y):
   global count
   
-  # base case
+  # base case: 지도의 범위를 벗어나면 return
   if x < 0 or x >= n or y < 0 or y >= n:
     return
 
