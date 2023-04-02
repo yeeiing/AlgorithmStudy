@@ -175,3 +175,19 @@ print(float(n)**float(m))
 n, m = input().split()
 print(int(n)//int(m))
 
+# 빠른 입출력 # 15552 빠른 A+B # 기업 코테에선 거의 X, 대회에선 쓸 수 O
+import sys
+input = sys.stdin.readline()
+# 오버플로우: 자료형이 담을 수 있는 범위를 초과 (Python 고려 X, 기업 코테 거의 X)
+# 딕셔너리 : Key, Value, 삽입/삭제
+# set : 중복 X,
+s = set()
+s.add(12)
+s.add(12)
+s.add(34)
+s.add(54)
+print(s)
+s.pop() # 랜덤으로 한 값이 빠짐 -> 유용X
+s.remove(54) # 특정 값 빼기
+s.clear()
+print(s)
